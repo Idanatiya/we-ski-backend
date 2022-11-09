@@ -1,7 +1,7 @@
 const express =  require('express')
 const dotenv = require('dotenv').config()
 const cors = require('cors')
-//error handler
+//error handlerr
 const {errorHandler} = require('./middleware/errorMiddleware')
 const port = process.env.PORT || 3000
 
